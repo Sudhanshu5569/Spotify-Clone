@@ -1,0 +1,61 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px ;
+    padding: 0px ;
+text-decoration: none;
+box-sizing: border-box;
+
+}
+body{
+    min-height: 100 vh;
+background: rgb(100, 142, 38) ;
+
+}
+form{
+    background: rgb(38, 211, 223);
+ width: 350px;
+ height: 580px;
+ padding: 75px 50px;
+ position: absolute;
+ left: 50%;
+ top: 50%;
+ transform: translate(-50%, -50%);
+}
+h1{
+    text-align: center;
+    margin-bottom: 45px;
+    color: white;
+    font-size: 45px;
+
+
+}
+.textBoxdiv{
+    border-bottom: 2px solid white;
+    position: relative;
+    margin: 35px ;
+
+}
+.textBoxdiv input{
+    background: none;
+border: none;
+outline: none;
+width: 100%;
+color: white;
+height: 30px;
+font-size: 20px;
+}
+.loginBtn{
+    color: blueviolet;
+    height: 25px;
+    width: 20%;
+    border: none;
+    outline: none;
+    background: rgb(100, 142, 38) ;
+    background-size: 200%;
+
+}
+
+.loginBtn:hover{
+    background-position: right;
+    font-size: 17px;
+}
